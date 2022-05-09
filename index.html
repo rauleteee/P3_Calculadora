@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>CALCULADORA CORE 2022</title>
+		<meta charset="utf-8">
+		<link type="text/css" href="estilo.css" rel="stylesheet">
+		<body>
+			<h2 class="cabecera">Calculadora de CORE</h2>
+
+			<table class="calculadora">
+			<input type="text" id="pantalla" onclick="vaciar()">
+				<table id="calc">
+					<tr>
+						<button id="cuadrado" onclick="sq()">x<sup>2</sup></button>
+						<button id="factorial" onclick="fact()">x!</button>
+						<button id="multiplicacion" onclick="mult()">*</button>
+						<button id="suma" onclick="add()">+</button>
+					</tr>
+					<tr>
+						<button id="resta" onclick="sub()">-</button>
+						<button id="division" onclick="div()">/</button>
+						<button id="igual" onclick="eq()">=</button>
+
+					</tr>
+				</table>
+			<h2 id="info" class = "grande" title="Info sobre el número">Info sobre el número</h2>
+			<script src = "script.js"></script>
+			<footer class ="footer">
+				<div class="text-center">
+					<h6>by: Raúl Giménez Lorente</h6> 
+				</div>
+			</footer>
+		</body>
+	</head>
+</html>
